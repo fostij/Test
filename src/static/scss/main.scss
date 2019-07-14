@@ -1,0 +1,42 @@
+@import "../scss/_libs";
+@import "../scss/_fonts";
+@import "../scss/_vars";
+@import "../scss/_reset";
+@import "../scss/_blocks/_header";
+@import "../scss/_blocks/_inform";
+@import "../scss/_blocks/_strategy";
+@import "../scss/_blocks/_burgerMenu";
+
+
+body {
+	font-family: $fonts, $fonts2;
+	font-size: 16px;
+	min-width: 320px;
+	height: 100vh;
+	position: relative;
+	line-height: 1.5;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	&.img-width {
+		width: 100%;
+	}
+}
+
+.wrapper {
+	position: relative;
+	max-width: 845px;
+	height: auto;
+	margin: 0 auto;
+}
+
+
+
+
+@import "../scss/media";

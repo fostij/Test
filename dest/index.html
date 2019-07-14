@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/my_style.css">
+    <title>TestTask</title>
+</head>
+<body>
+    <!-- Обгортка контенту -->
+    <div class="wrapper">
+        <!-- Головна шапка сторінки -->
+        <header class="header">
+            <!-- Логотип -->
+            <div class="header__logo">
+                <img class="header__img" src="img/logo.png" alt="logo">
+            </div>
+            <!-- Головна навігація по сторінці -->
+            <nav class="header__nav">
+                <ul>
+                    <li class="header__list"><a class="header__link" href="#">О компании</a></li>
+                    <li class="header__list"><a class="header__link" href="#">Услуги</a></li>
+                    <li class="header__list"><a class="header__link" href="#">Отзывы</a></li>
+                    <li class="header__list"><a class="header__link" href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div id="nav" class="navigation">
+                <div class="navigation__inner">
+                  <!--   Content Burger Menu  -->
+                    <nav class="navigation__nav">
+                        <ul>
+                            <li class="navigation__list"><a class="navigation__link" href="#">О компании</a></li>
+                            <li class="navigation__list"><a class="navigation__link" href="#">Услуги</a></li>
+                            <li class="navigation__list"><a class="navigation__link" href="#">Отзывы</a></li>
+                            <li class="navigation__list"><a class="navigation__link" href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+          <button id="show">Menu</button>
+        </header>
+        <!-- Інформаційний контент -->
+        <section class="inform">
+          <div class="inform__screen"></div>
+            <div class="inform__text">
+              <h1 class="inform__title">Типы контента, которые вы можете публиковать в своем интернет-магазине.</h1>
+                <p class="inform__shop">
+                   Грамотная контентная стратегия для интернет-магазина позволяет значительно увеличить
+                   объемы поискового трафика на сайт, за который предпринимателю нет необходимости платить. 
+                   Это повышает рентабельность бизнеса, ускоряет его развитие и дает преимущество...
+                </p>
+              <button class="inform__button">Подробнее</button>
+            </div>
+        </section>
+        <!-- Контент стратегії -->
+        <section class="strategy">
+         <h2 class="strategy__title">Эффективность контентной стратегии</h2>
+            <p class="strategy__text">
+                Грамотная контентная стратегия для интернет-магазина позволяет значительно увеличить объемы
+                поискового трафика на сайт, за который предпринимателю нет необходимости платить. Это повышает
+                рентабельность бизнеса, ускоряет его развитие и дает преимущество по сравнению с конкурентами.
+                Поэтому выстраивать эффективную стратегию контент-маркетинга в современных реалиях просто необходимо.
+            </p>
+            <div class="items">
+                <div class="item">
+                    <img class="item__img" src="../img/people.png" alt="people">
+                    <p class="item__text">Улучшение<br> посещяемости</p>
+                </div>
+                <div class="item">
+                    <img class="item__img" src="img/bascket.png" alt="bascket">
+                    <p class="item__text">Увеличение<br> количества продаж</p>
+                </div>
+                <div class="item">
+                    <img class="item__img" src="img/calculator.png" alt="calculator">
+                    <p class="item__text">Рост<br> прибыли</p>
+                </div>
+                <div class="item">
+                    <img class="item__img" src="img/portfolio.png" alt="portfolio">
+                    <p class="item__text">Стабильность<br> бизнеса</p>
+                </div>
+            </div>
+                <!-- Контент пояснення товарів, маркетингу, статті -->
+            <div class="description">
+                <div class="description__text">
+                    <h3 class="text_title">Информация о товаре</h3>
+                    <p class="text_inform">
+                        Это текст, который доступен посетителю на странице товара. Это может быть как качественно 
+                        подготовленное описание, так и дополнительная информация: интересные факты, видеообзор, а также
+                        преимущества данного товара по сравнению с аналогами от конкурентов. Согласитесь, это будет гораздо
+                        интереснее, чем банальное описание технических характеристик.
+                    </p>
+                </div>
+                <div class="description__text">
+                    <h3 class="text_title">Маркетинговый контент</h3>
+                    <p class="text_inform">
+                        Речь идет о заметках и публикациях с информацией о скидках, распродажах, конкурсах и прочих акционных
+                        предложениях. Такой текст тоже необходимо тщательно прорабатывать, так как от стиля подачи во многом
+                        зависит и успех подобной акции. В современных реалиях вызвать интерес со стороны потенциального клиента
+                        не так уж и просто.
+                    </p>
+                </div>
+                <div class="description__text">
+                    <h3 class="text_title">Обзорные статьи</h3>
+                    <p class="text_inform">
+                        Они могут быть самыми разными – от разъяснения особенностей той или иной технологии и до демонстрации
+                        вариантов применения гаджета или другого подобного устройства. Важно раскрывать тему и давать пользователю
+                        исчерпывающий ответ на интересующий его вопрос. И да, не забывайте отвечать на комментарии – коммуникация
+                        должна быть двухсторонней.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div> 
+    
+    <script src="js/libs.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
